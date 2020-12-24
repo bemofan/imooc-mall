@@ -12,7 +12,6 @@
       <PatternLayout
         pattern="[%d{MM:dd HH:mm:ss.SSS}] [%level] [%logger{36}] - %msg%n"/>
     </Console>
-
     <!--debug级别日志文件输出-->
     <RollingFile name="debug_appender" fileName="${baseDir}/debug.log"
       filePattern="${baseDir}/debug_%i.log.%d{yyyy-MM-dd}">
